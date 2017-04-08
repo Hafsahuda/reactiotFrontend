@@ -1,0 +1,43 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "This is a template application that includes [React](https://facebook.github.io/react/), [Bootstrap](http://getbootstrap.com) and [FontAwesome](http://fontawesome.io/icons/). Start a new application by cloning this repository.",
+  "main": "src/index.js",
+  "scripts": {
+    "prebuild": "npm run lint",
+    "build": "webpack --progress --bail -p",
+    "lint": "eslint --ext .js --ext .jsx src test adapters ./*.js",
+    "start": "webpack-dev-server --progress --colors -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "7.0.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "eslint": "3.8.1",
+    "eslint-config-react-app": "^0.3.0",
+    "eslint-loader": "1.6.0",
+    "eslint-plugin-flowtype": "2.21.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}

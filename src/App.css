@@ -1,0 +1,63 @@
+.App {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.App .mood {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+#graph{
+  width: 450px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  height: 260px;
+}
+.mar{
+  margin-left: 180px;
+}
+.boltr{
+  font-weight: bolder;
+}
+.ryt{
+  text-align: left;
+}
+#EmailSent{
+  display: none;
+}
+.LastFeed{
+  margin-bottom: 10px;
+  text-align : center;
+
+}
+
+.bin{
+  font-size: 130px;
+  text-align: center;
+}
+.center{
+    text-align: center;
+    margin-left: -70px;
+    font-weight: bold;
+}
+.centr{
+  text-align: center;
+}
+.Full{
+  background: red;
+  color: white;
+  padding: 0px 5px 0px;
+  border-radius: 5px;
+}
+.Empty{
+  background: green;
+  color: white;
+  padding: 0px 5px 0px;
+  border-radius: 5px;
+}
+.fa{
+  margin-right: 5px;
+}
+.bolt{
+  font-weight: bold;
+}
